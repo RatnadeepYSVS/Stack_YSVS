@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+* {
+    font-family: 'Lato';
+}
+
+body {
+    background: aquamarine
+}
+
+input {
+    font-weight: bold;
+    width: 30%;
+    text-align: center;
+    height: 130%;
+    color: grey;
+    background-color: white;
+    border: 0.1px solid black;
+}
+
+input:active {
+    border: 0.1px solid black;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    height: 120%;
+    border-radius: 4%;
+    opacity: 0.9
+}
+
+button:hover {
+    opacity: 1
+}
+
+img {
+    width: 20%;
+    height: 20%;
+}
+
+.checker {
+    text-align: center;
+    margin-top: 1%;
+    margin-right: 2%;
+    font-size: 120%;
+    height: 20%;
+}
+
+.dispo {
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    margin-right: 2%;
+}
+
+.dispo p {
+    font-weight: bold
+}
